@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        h1 {
+            font-family: sans-serif;
+            color: brown;
+            font-size: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Resume</h1>
+            <!-- Links -->
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./work.html">Work</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a target="_blank" href="https://www.google.com">Search Google</a></li>
+            </ul>
+            <br/>
+            <br/>
+
+            <b>Upload your Resume here at GoMYCode Academy</b> <br/>
+
+            <!-- <strong>Your journey to coding starts here</strong><br/> -->
+            <p>Your journey to coding starts here</p>
+        </nav>
+    </header>
+    <div>
+        <!-- Form -->
+        <form action="login_process.php" method="post">
+        <input id="" class="form_control" name="First_Name" type="text" placeholder="First Name"/>
+        <input id="" class="form_control" name="Last_Name" type="text" placeholder="Last Name"/>
+        <input id="" class="form_control" name="User_Name" type="text" maxlength="10" placeholder="Username"/>
+        <input id="" class="form_control" name="email" type="email" placeholder="email"/>
+        <input id="" class="form_control" name="Phone_Number" value="100" max="50" min="7" type="number" placeholder="Phone Number"/>
+        <input id="" class="form_control" name="Password" type="password" placeholder="Enter Password"/>
+        <input id="" class="form_control" name="Retype_Password" type="password" placeholder="Retype Password"/>
+        <input name="color" type="color"/>
+        <input id="" class="form_control" name="DOB" type="date"/>
+        <input id="" class="form_control" name="Time" type="time"/>
+
+        <select required>
+        <option value="" selected disabled>--Select State-</option>
+        <option value="Abuja">Abuja</option>
+        <option value="Rivers">Rivers</option>
+        <option value="Lagos">Lagos</option>
+        <option value="Kano">Kano</option></select>
+        <br>
+        <br>
+        <!-- <input type="checkbox"> -->
+        <input name="pry" type="checkbox" value="Leaving Cert"> Pry School Leaving Cert
+        <input name="waec" type="checkbox" value="WAEC"> WAEC
+        <input name="bsc" type="checkbox" value="BSC"> BSC
+        <input name="master" type="checkbox" value="Master"> Master
+        <br>
+        <br>
+        <!-- <label for="">Gender:</label> -->
+        <label for="">Gender:</label>
+        <input name="gender" type="radio" value="Male"> Male
+        <input name="gender" type="radio" value="Female"> Female
+        <input type="week" name="" id="">
+        <input type="url" name="" id="">
+        <input type="file" name="" id="">
+        <br /> 
+        <br />
+        <!-- <input type="submit" value="Sign Up"/> 
+        <input type="reset" value="Clear"/> -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </div>
+
+</body>
+</html>
